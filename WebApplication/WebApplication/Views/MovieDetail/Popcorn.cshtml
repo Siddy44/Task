@@ -1,0 +1,22 @@
+﻿@model WebApplication.Models.ViewModel.RandomViewModel
+@{
+    ViewBag.Title = "Popcorn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Have some Popcorn, We will be Watching</h2>
+
+@{
+    var hello = Model.customers.Count > 0 ? "popular" : null;
+}
+<h2 class="@hello">@Model.Movie.Title</h2>
+<h2>Rating @Model.Movie.Rating</h2>
+<p>People watching this movie</p>
+@foreach (var item in Model.customers)
+{
+    <div>
+        <h3>
+            @item.Name
+        </h3>
+    </div>
+}

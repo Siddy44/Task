@@ -124,13 +124,16 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JsonDemoController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
+    <Compile Include="Controllers\MovieDetailController.cs" />
     <Compile Include="Controllers\ParaActionController.cs" />
     <Compile Include="Controllers\ResultController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\JsonData.cs" />
     <Compile Include="Models\Movies.cs" />
+    <Compile Include="Models\ViewModel\RandomViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -171,9 +174,11 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Movie\Index.cshtml" />
+    <Content Include="Views\MovieDetail\Popcorn.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Customer\" />
     <Folder Include="Views\Employee\" />
     <Folder Include="Views\JsonDemo\" />
     <Folder Include="Views\ParaAction\" />
