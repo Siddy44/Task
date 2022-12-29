@@ -122,11 +122,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JsonDemoController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
     <Compile Include="Controllers\ResultController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\JsonData.cs" />
     <Compile Include="Models\Movies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -171,6 +173,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Employee\" />
+    <Folder Include="Views\JsonDemo\" />
     <Folder Include="Views\Result\" />
   </ItemGroup>
   <ItemGroup>
