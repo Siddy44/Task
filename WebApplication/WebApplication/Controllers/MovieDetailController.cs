@@ -10,9 +10,9 @@ namespace WebApplication.Controllers
 {
     public class MovieDetailController : Controller
     {
-       
-      
-        
+
+
+        [Route("MovieDetail")]
             public ActionResult Popcorn()
             {
                 var hello = new Movies() { Title = "Mission Impossible!",Rating=7.7 };
