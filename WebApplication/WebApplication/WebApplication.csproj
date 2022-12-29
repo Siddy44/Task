@@ -124,6 +124,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JsonDemoController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
+    <Compile Include="Controllers\ParaActionController.cs" />
     <Compile Include="Controllers\ResultController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -174,6 +175,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Views\Employee\" />
     <Folder Include="Views\JsonDemo\" />
+    <Folder Include="Views\ParaAction\" />
     <Folder Include="Views\Result\" />
   </ItemGroup>
   <ItemGroup>
